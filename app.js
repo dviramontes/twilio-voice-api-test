@@ -46,7 +46,7 @@ app.get('/makecall', function(req,res,next){
     fallbackMethod: "GET",
     statusCallbackMethod: "GET",
     record: "false",
-    url:"https://39b20d26.ngrok.com/callmeback"
+    url:"/callmeback"
   }, function(err, call) {
     if(err){
       console.error(err);
