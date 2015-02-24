@@ -46,7 +46,7 @@ app.get('/makecall', function(req,res,next){
     fallbackMethod: "GET",
     statusCallbackMethod: "GET",
     record: "false",
-    url:"/callmeback"
+    url:"https://s6-voice.herokuapp.com/callmeback"
   }, function(err, call) {
     if(err){
       console.error(err);
