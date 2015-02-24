@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div.container
+    div.row
+      div(class="col-lg-12")
+        div.jumbotron
+          h1= title
+          p type a message:
+          input(type="text", id="msg", class="topcoat-text-input--large", value="",placeholder="text", maxlength=20)
+          br
+          br
+          p now press the button to deliver the message:
+          button#btn.topcoat-button--large--cta call
